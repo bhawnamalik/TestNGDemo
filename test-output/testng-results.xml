@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="10" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-19T11:55:23Z" name="Default suite" finished-at="2021-04-19T11:55:23Z" duration-ms="113">
+    <groups>
+      <group name="G1,G2">
+        <method signature="TestNGGrouping.G2T2()[pri:0, instance:com.nagarro.nagptestng.TestNGGrouping@1ef6d34c]" name="G2T2" class="com.nagarro.nagptestng.TestNGGrouping"/>
+      </group> <!-- G1,G2 -->
+      <group name="G1">
+        <method signature="TestNGGrouping.G1T1()[pri:0, instance:com.nagarro.nagptestng.TestNGGrouping@1ef6d34c]" name="G1T1" class="com.nagarro.nagptestng.TestNGGrouping"/>
+        <method signature="TestNGGrouping.G1T2()[pri:0, instance:com.nagarro.nagptestng.TestNGGrouping@1ef6d34c]" name="G1T2" class="com.nagarro.nagptestng.TestNGGrouping"/>
+        <method signature="TestNGGrouping.G1T3()[pri:0, instance:com.nagarro.nagptestng.TestNGGrouping@1ef6d34c]" name="G1T3" class="com.nagarro.nagptestng.TestNGGrouping"/>
+      </group> <!-- G1 -->
+      <group name="G2">
+        <method signature="TestNGGrouping.G2T1()[pri:0, instance:com.nagarro.nagptestng.TestNGGrouping@1ef6d34c]" name="G2T1" class="com.nagarro.nagptestng.TestNGGrouping"/>
+      </group> <!-- G2 -->
+      <group name="G3">
+        <method signature="TestNGGrouping.G3T1()[pri:0, instance:com.nagarro.nagptestng.TestNGGrouping@1ef6d34c]" name="G3T1" class="com.nagarro.nagptestng.TestNGGrouping"/>
+        <method signature="TestNGGrouping.G3T2()[pri:0, instance:com.nagarro.nagptestng.TestNGGrouping@1ef6d34c]" name="G3T2" class="com.nagarro.nagptestng.TestNGGrouping"/>
+      </group> <!-- G3 -->
+    </groups>
+    <test started-at="2021-04-19T11:55:23Z" name="Default test" finished-at="2021-04-19T11:55:23Z" duration-ms="113">
+      <class name="com.nagarro.nagptestng.TestNGGrouping">
+        <test-method signature="G1T1()[pri:0, instance:com.nagarro.nagptestng.TestNGGrouping@1ef6d34c]" started-at="2021-04-19T11:55:23Z" name="G1T1" finished-at="2021-04-19T11:55:23Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G1T1 -->
+        <test-method signature="G1T2()[pri:0, instance:com.nagarro.nagptestng.TestNGGrouping@1ef6d34c]" started-at="2021-04-19T11:55:23Z" name="G1T2" finished-at="2021-04-19T11:55:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G1T2 -->
+        <test-method signature="G1T3()[pri:0, instance:com.nagarro.nagptestng.TestNGGrouping@1ef6d34c]" started-at="2021-04-19T11:55:23Z" name="G1T3" finished-at="2021-04-19T11:55:23Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G1T3 -->
+        <test-method signature="G1T3()[pri:0, instance:com.nagarro.nagptestng.TestNGGrouping@1ef6d34c]" started-at="2021-04-19T11:55:23Z" name="G1T3" finished-at="2021-04-19T11:55:23Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G1T3 -->
+        <test-method signature="G2T1()[pri:0, instance:com.nagarro.nagptestng.TestNGGrouping@1ef6d34c]" started-at="2021-04-19T11:55:23Z" name="G2T1" finished-at="2021-04-19T11:55:23Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G2T1 -->
+        <test-method signature="G2T2()[pri:0, instance:com.nagarro.nagptestng.TestNGGrouping@1ef6d34c]" started-at="2021-04-19T11:55:23Z" name="G2T2" finished-at="2021-04-19T11:55:23Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G2T2 -->
+        <test-method signature="G3T1()[pri:0, instance:com.nagarro.nagptestng.TestNGGrouping@1ef6d34c]" started-at="2021-04-19T11:55:23Z" name="G3T1" finished-at="2021-04-19T11:55:23Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G3T1 -->
+        <test-method signature="G3T2()[pri:0, instance:com.nagarro.nagptestng.TestNGGrouping@1ef6d34c]" started-at="2021-04-19T11:55:23Z" name="G3T2" finished-at="2021-04-19T11:55:23Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G3T2 -->
+        <test-method signature="sample1()[pri:0, instance:com.nagarro.nagptestng.TestNGGrouping@1ef6d34c]" started-at="2021-04-19T11:55:23Z" name="sample1" finished-at="2021-04-19T11:55:23Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample1 -->
+      </class> <!-- com.nagarro.nagptestng.TestNGGrouping -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

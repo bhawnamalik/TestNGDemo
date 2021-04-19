@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<groups>
+			<run>
+				<include name="G1" />
+				<include name="G3" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.nagarro.nagptestng.TestNGGrouping" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
