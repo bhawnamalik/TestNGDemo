@@ -9,7 +9,7 @@ public class TestNGGrouping {
 	{
 		System.out.println("Test case group 1 test case 1");
 	}	
-	@Test(groups= {"G1"}) 
+	@Test(groups= {"G1"}, description = "This is Group 1 test case") 
 	public void G1T2()
 	{
 		System.out.println("Test case group 1 test case 2");
